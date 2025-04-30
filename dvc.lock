@@ -1,0 +1,36 @@
+
+schema: '2.0'
+stages:
+  prepare_data:
+    cmd: python src/data_preparation.py
+    deps:
+    - path: data/raw/bboxes/bounding_boxes.csv
+      hash: md5
+      md5: 7cb0c79f30efa100785ab964a12ade2e
+      size: 81187
+    - path: data/raw/image_info.csv
+      hash: md5
+      md5: 90e42fcd65cdbb9ef0785ab7d20f5155
+      size: 47917
+    - path: src/data_preparation.py
+      hash: md5
+      md5: a5bd1c0c7d5fd24dd5b2020d10b487fd
+      size: 7840
+    - path: utils.py
+      hash: md5
+      md5: 37d92222cf2367b76497676460d1aaa2
+      size: 8695
+    outs:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: b0dccc96a6c26a16a107ee1381f25e64
+      size: 16435
+    - path: data/processed/train.csv
+      hash: md5
+      md5: a32ab38525e771672b86aefdd2372e49
+      size: 38817
+    - path: outputs/plots/eda/
+      hash: md5
+      md5: 7b65a4b792bb0f4400500f9e9ccccc54.dir
+      size: 226540
+      nfiles: 3

@@ -1,0 +1,23 @@
+stages:
+  prepare_data:
+    cmd: python src/data_preparation.py
+    deps:
+      - src/data_preparation.py
+      - data/raw/image_info.csv
+      - data/raw/bboxes/bounding_boxes.csv
+    outs:
+      - data/processed/train.csv
+      - data/processed/test.csv
+      - outputs/plots/eda/
+
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - src/model.py
+      - data/processed/train.csv
+      - data/processed/test.csv
+      - data/raw/images/ # Directory with images used by the dataset class
+      - data/raw/bboxes/bounding_boxes.csv
+    outs:
+      - outputs/models/

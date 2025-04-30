@@ -1,0 +1,19 @@
+2025-04-30 10:15:23 - root - INFO - Using device: cuda
+2025-04-30 10:15:24 - root - INFO - Using existing processed data...
+2025-04-30 10:15:32 - root - INFO - Train dataset size: 680
+2025-04-30 10:15:32 - root - INFO - Test dataset size: 170
+2025-04-30 10:15:47 - root - INFO - The Model's Head - Before: 
+ FastRCNNPredictor(
+  (cls_score): Linear(in_features=1024, out_features=91, bias=True)
+  (bbox_pred): Linear(in_features=1024, out_features=364, bias=True)
+)
+2025-04-30 10:15:48 - root - INFO - The Model's Head - After: 
+ FastRCNNPredictor(
+  (cls_score): Linear(in_features=1024, out_features=2, bias=True)
+  (bbox_pred): Linear(in_features=1024, out_features=8, bias=True)
+)
+2025-04-30 10:15:50 - root - INFO - Epoch 1/1
+2025-04-30 10:38:12 - root - INFO - Train Loss: 0.6642, Time: 1341.90s, LR: 0.005000
+2025-04-30 10:42:43 - root - INFO - Eval Precision: 0.1888, Recall: 0.8559, F1: 0.3094
+2025-04-30 10:42:44 - root - INFO - Saved best model with F1=0.3094 to E:\mlops_project\mlops-object-detection\outputs\models\best_model_e1_f1_0.3094_20250430_104244.pth
+2025-04-30 10:42:45 - root - INFO - Training completed. Best F1 score: 0.3094

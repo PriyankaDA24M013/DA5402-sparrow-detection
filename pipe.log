@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+2025-04-30 15:48:24,647 -- [INFO]: Train CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\train.csv
+2025-04-30 15:48:24,663 -- [INFO]: Test CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\test.csv
+2025-04-30 15:51:49,498 -- [INFO]: Train CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\train.csv
+2025-04-30 15:51:49,513 -- [INFO]: Test CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\test.csv
+2025-04-30 15:53:30,895 -- [INFO]: Train CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\train.csv
+2025-04-30 15:53:30,912 -- [INFO]: Test CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\test.csv
+2025-04-30 15:53:31,558 -- [INFO]: House Sparrow Distribution (Train, 352 samples) saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_number_hsparrows_distribution.jpg
+2025-04-30 15:53:32,032 -- [INFO]: Train Images per Author saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_author_distribution.jpg
+2025-04-30 15:54:34,192 -- [INFO]: Train CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\train.csv
+2025-04-30 15:54:34,226 -- [INFO]: Test CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\test.csv
+2025-04-30 15:54:35,419 -- [INFO]: House Sparrow Distribution (Train, 352 samples) saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_number_hsparrows_distribution.jpg
+2025-04-30 15:54:36,008 -- [INFO]: Train Images per Author saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_author_distribution.jpg
+2025-04-30 15:58:32,647 -- [INFO]: Image info columns: ['Name', 'Author', 'Number_HSparrows', 'Source', 'License']
+2025-04-30 15:58:32,716 -- [INFO]: Train CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\train.csv
+2025-04-30 15:58:32,737 -- [INFO]: Test CSV saved at: E:\mlops_project\mlops-object-detection\data\processed\test.csv
+2025-04-30 15:58:33,397 -- [INFO]: House Sparrow Distribution (Train, 352 samples) saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_number_hsparrows_distribution.jpg
+2025-04-30 15:58:33,920 -- [INFO]: Train Images per Author saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_author_distribution.jpg
+2025-04-30 15:58:33,920 -- [INFO]: Using width column: Width, height column: Height
+2025-04-30 15:58:33,920 -- [WARNING]: Skipping plot: columns Width or Height not found in DataFrame
+2025-04-30 15:58:34,314 -- [INFO]: Avg BBox Sizes saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_bbox_sizes.jpg

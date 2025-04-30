@@ -1,0 +1,4 @@
+# Add patterns of files dvc should ignore, which could improve
+# the performance. Learn more at
+# https://dvc.org/doc/user-guide/dvcignore
+>>>>>>> b40cb2230fac46142abed70f7c5cce460369a117
