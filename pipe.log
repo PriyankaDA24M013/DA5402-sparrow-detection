@@ -19,3 +19,11 @@
 2025-04-30 15:58:33,920 -- [INFO]: Using width column: Width, height column: Height
 2025-04-30 15:58:33,920 -- [WARNING]: Skipping plot: columns Width or Height not found in DataFrame
 2025-04-30 15:58:34,314 -- [INFO]: Avg BBox Sizes saved at: E:\mlops_project\mlops-object-detection\outputs\plots\eda\train_bbox_sizes.jpg
+2025-05-01 14:58:57,985 -- [INFO]: Using device: cpu
+2025-05-01 14:58:57,989 -- [INFO]: Using existing processed data...
+2025-05-01 14:58:58,107 -- [INFO]: Train dataset size: 352
+2025-05-01 14:58:58,122 -- [INFO]: Test dataset size: 148
+2025-05-01 14:59:00,909 -- [INFO]: Epoch 1/5
+2025-05-01 15:28:31,685 -- [INFO]: Train Loss: 0.6582, Time: 1770.68s, LR: 0.005000
+2025-05-01 15:33:43,631 -- [INFO]: Eval Precision: 0.3435, Recall: 0.8588, F1: 0.4908
+2025-05-01 15:33:44,432 -- [INFO]: Saved best model with F1=0.4908 to outputs\models\best_model_e1_f1_0.4908_20250501_153343.pth

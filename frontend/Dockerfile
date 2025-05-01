@@ -8,14 +8,14 @@ RUN apt-get update && apt-get install -y \
     libpng-dev \
     libfreetype6-dev \
     libx11-6 \
-    ttf-freefont \
+    fonts-freefont-ttf \
     bash \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
+COPY app_requirements.txt ./
+RUN pip install --upgrade pip && pip install --no-cache-dir -r app_requirements.txt
 
 COPY ./frontend ./frontend
 
