@@ -7,6 +7,9 @@ services:
       dockerfile: frontend/Dockerfile
     ports:
       - "8501:8501"
+    environment:
+      - API_HOST=api
+      - API_PORT=8000
     depends_on:
       - api
     restart: unless-stopped
