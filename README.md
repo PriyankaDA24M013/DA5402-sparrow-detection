@@ -3,11 +3,6 @@
 
 #  MLOps Object(Sparrow) Detection Project — User Manual
 
-Welcome to the MLOps Object Detection pipeline! This manual will guide you through setting up, running, monitoring, and extending the system.
-
----
-
-##  Project Overview
 
 This project is an end-to-end MLOps system for training, serving, and monitoring an object detection model using:
 - **DVC** for data version control
