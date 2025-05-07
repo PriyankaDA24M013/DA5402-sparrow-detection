@@ -9,6 +9,8 @@ This project is an end-to-end MLOps system for training, serving, and monitoring
 - **Docker** for orchestration
 - **Prometheus** for monitoring
 - **Flask** for serving the model via API
+- **Streamlit** for frontend UI
+- **Grafana** for interactive visualization
 - **Python scripts** for model training and utility functions
 
 ---
@@ -19,8 +21,19 @@ This project is an end-to-end MLOps system for training, serving, and monitoring
 mlops-object-detection/
 ├── data/                    # Datasets managed via DVC
 ├── models/                  # Trained models tracked with DVC
-├── train.py                 # Model training script
-├── api.py                   # API server exposing inference endpoints
+|── mlflow/                  # Tracking model traning with mlflow
+├── frontend/
+    ├── wrong_predictions    # all the wrongly classified images get stored here 
+    ├── app.py               # contains app.py for UI 
+├── grafana/                 # An interactive dashboard using prometheus
+├── src/
+    ├── data_prepare.py      # Performing EDA 
+    ├── model.py             # contain Faster RCNN model       
+    ├── train.py             # Model training script
+├── api
+    ├── model_loader.py         # loads best model from mlflow
+    ├── detection.py         # Detection of uploaded image
+    ├── main.py              # API server exposing inference endpoints
 ├── docker-compose.yml       # Orchestrates services
 ├── dvc.yaml                 # DVC pipeline config
 ├── params.yaml              # Training hyperparameters
@@ -48,7 +61,7 @@ pip install -r requirements.txt
 pip install -r api_requirements.txt
 ```
 
-**UI dependencies (if available):**
+**UI dependencies :**
 ```bash
 pip install -r app_requirements.txt
 ```
@@ -165,7 +178,7 @@ docker-compose down
 
 - Ensure DVC remote is configured for data sharing
 - Prometheus targets API metrics for system health
-- Check `logs/train.log` for model training details
+- Check `train.log` for model training details
 - `utils.py` has helper utilities used in both training and inference
 
 
