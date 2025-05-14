@@ -46,6 +46,7 @@ mlops-object-detection/
 ```
 
 ---
+## Flow of the project 
 ![MLOps Flow](images/mlops_flow.png)
 
 
