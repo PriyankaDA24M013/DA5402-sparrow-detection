@@ -46,6 +46,7 @@ mlops-object-detection/
 ```
 
 ---
+![Alt text]("mlops_flow.png")
 
 ##  Setup Instructions
 
@@ -115,7 +116,8 @@ docker-compose up --build
 API runs on: `http://localhost:5000/`
 
 ---
-
+##  Webpage for the application 
+UI runs on :[http://localhost:8501](http://localhost:8501)
 ##  Monitoring (Prometheus)
 
 Prometheus config is in `prometheus.yml`.
