@@ -1,7 +1,7 @@
 
 
 
-#  MLOps Object(Sparrow) Detection Project — User Manual
+#  MLOps Object(Sparrow) Detection Project 
 
 
 This project is an end-to-end MLOps system for training, serving, and monitoring an object detection model using:
