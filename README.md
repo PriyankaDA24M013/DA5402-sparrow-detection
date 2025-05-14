@@ -46,7 +46,8 @@ mlops-object-detection/
 ```
 
 ---
-![Alt text](E:\mlops_project\DA5402-sparrow-detection\mlops_flow.png)
+![MLOps Flow](images/mlops_flow.png)
+
 
 ##  Setup Instructions
 
